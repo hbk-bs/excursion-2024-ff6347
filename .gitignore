@@ -39,3 +39,5 @@ $RECYCLE.BIN/
 *.msp
 # Windows shortcuts
 *.lnk
+images/orig/
+images/resize/
