@@ -54,7 +54,6 @@ figcaption {
 .row {
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
 }
 .column {
   display: flex;
@@ -63,21 +62,21 @@ figcaption {
 
 .sixteen-nine {
   flex: 16 9 0;
-  aspect-ratio: 16 / 9;
+  /* aspect-ratio: 16 / 9; */
+}
+.squared-nine {
+  flex: 9 9 0;
+  /* Adjusts to maintain equal height with element1 */
+  /* aspect-ratio: 1 / 1; */
 }
 
 .nine-sixteen {
   flex: 9 16 0;
-  aspect-ratio: 9 / 16;
+  /* aspect-ratio: 9 / 16; */
 }
 .squared-sixteen {
   flex: 16 16 0; /* Adjusts to maintain equal height with element1 */
-  aspect-ratio: 1 / 1;
-}
-
-.squared-nine {
-  flex: 9 9 0; /* Adjusts to maintain equal height with element1 */
-  aspect-ratio: 1 / 1;
+  /* aspect-ratio: 1 / 1; */
 }
 
 .locations {
